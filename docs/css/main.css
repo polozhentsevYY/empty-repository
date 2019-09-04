@@ -1,0 +1,350 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    
+    padding: 0;
+    margin: 0;    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    
+    color: white;
+    
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: green;
+    background-repeat: no-repeat;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header-top {
+    width: 1170px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 37px;
+}
+
+.header-top::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.header-logo {
+    float:left;
+    
+    font-family: 'Lobster';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.header-navigation {
+    float: right;
+    
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 400;
+    
+    letter-spacing: 1;
+    
+    padding-top: 14px;
+}
+
+.header-navigation a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header-navigation a:hover {
+    text-decoration: underline;
+}
+
+.header-navigation-link {
+    display: inline-block;
+    
+    margin-right: 44px;
+}
+
+.header-navigation-link:last-child {
+    margin-right: 0;
+}
+
+.header-title-wrapper {
+    width: 1170px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+}
+
+.header-title {
+    font-family: "PT Sans";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    
+    margin-bottom: 30px;
+    
+}
+
+.header-subtitle {
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    
+    
+}
+
+.header-scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    
+    text-align: center;    
+    transform: translateX(-50%);   
+}
+
+.header-scroll-text {
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    
+    margin-bottom: 12px;
+}
+
+.header-scroll-img {
+    
+}
+
+/*-------------------------------------------------------
+************************** CONTENT **********************
+-------------------------------------------------------*/
+
+.container {
+    width: 100%;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-wrapper {
+    width: 1170px;
+     
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-row {
+    width: 100%;
+    height: 490px;
+    margin-bottom: 120px;
+}
+
+.content-row:last-child {
+    margin-bottom: 0;
+}
+
+.float-left {
+    float: left;
+    
+}
+
+.float-right {
+    float: right;
+}
+
+.content-title {
+    width: 470px;
+}
+
+.content-text-title {
+    color: #31405b;
+    font-family: "PT Sans";
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+    
+    padding: 0;
+    margin: 0;  
+}
+
+.content-text-description {
+    
+    color: #31405b;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    
+    margin-bottom: 40px;
+
+}
+
+.content-text-description a {
+    color: #138ece;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/*
+.button { 
+    
+    width: 180px;
+    height: 50px;
+    box-shadow: 0 8px 20px rgba(24, 219, 148, 0.35);
+    border-radius: 25px;
+    background-color: #0ac883;
+    
+}
+*/
+
+.button {
+    display: inline-block;
+    
+    color: white;
+    text-decoration: none;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    
+    padding: 9px 40px;
+    
+    box-shadow: 0 8px 20px rgba(24, 219, 148, 0.35);
+    border-radius: 25px;
+    background-color: #0ac883;
+    
+}
+
+.button:hover {
+    background-color: #256823;
+    
+}
+
+.content-img {
+    width: 570px;
+}
+
+/*--------------------------------------------------------------
+****************************** FOOTER ***************************
+---------------------------------------------------------------*/
+
+.footer {
+    width: 100%;
+    height: 408px;
+    
+    background-color: #265847;
+    color: white;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-wrapper {
+    width: 1170px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 79px;
+}
+
+.footer-title {
+    width: 260px;   
+}
+
+.footer-title-logo {
+    color: #ffffff;
+    font-family: Lobster;
+    font-size: 40px;
+    font-weight: 400;
+    
+    margin-bottom: 18px;
+}
+
+.footer-title-description {
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625;
+}
+
+.footer-row {
+    width: 690px;
+    margin-right: 12px;
+}
+
+.footer-content-container {
+    
+    width: 220px;
+    margin-right: 15px;
+}
+
+.footer-content-container:last-child {
+    margin-right: 0;
+}
+
+.footer-content-title {
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    
+    margin-bottom: 23px;
+}
+
+.footer-list ul {
+    list-style-type: none;
+    text-align: left;
+    
+    padding-left: 0px;; 
+}
+
+.footer-list ul li {
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    
+    margin-bottom: 20px;
+}
+
+
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list a:hover {
+    color: yellow;
+}
